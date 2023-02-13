@@ -14,14 +14,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "org.my.bundle",
       "usesAppleSignIn": true,
-      "bitcode": "Debug"
+      "bitcode": "Debug",
+      "associatedDomains": ["applinks:test.web.app"]
     },
     "android": {
       "adaptiveIcon": {
